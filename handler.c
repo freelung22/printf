@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * hand - Format controller
+ * handler - Format controller
  * @str: String format
  * @list: List of arguments
  *
  * Return: Total size of arguments with the total size of the base string
  **/
-int hand(const char *str, va_list list)
+int handler(const char *str, va_list list)
 {
 	int size, i, aux;
 
